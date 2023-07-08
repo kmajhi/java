@@ -4,7 +4,7 @@ public class HelloWorld {
 
         int a = 1;
         float b = 3.1416;
-
-        System.out.println("Sum:" + (a+b)); 
+        float sum = a+b;
+        System.out.println("Sum: " + sum); 
     }
 }
