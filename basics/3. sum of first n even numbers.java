@@ -6,7 +6,7 @@ public class Main {
         int count = sc.nextInt();
         int sum = 0;
 
-        for (int i = 1; i <= count; i++) {
+        for (int i = 0; i <= count; i++) {
 
             sum += (2*i);
         }
