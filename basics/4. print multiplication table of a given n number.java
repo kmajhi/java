@@ -3,15 +3,13 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int multi= 1;
+
+        int i;
         System.out.print("Enter the number =>>\t");
         int n = sc.nextInt();
 
-        for (int i=1; i<=n; i++){
-
-                multi = multi *i;
-
+        for ( i=1; i<=10; i++){
+            System.out.printf("%d x %d \t= \t%d\n", n,i,n*i);
         }
-        System.out.println("Multiplication of the first n numbers =>> "+ multi);
     }
 }
