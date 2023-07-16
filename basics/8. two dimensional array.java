@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-       int [] marks;
        int [][] flats;
        flats = new int[2][3];
 
