@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
+        
+    // int [][] flats = {{101,102,103},{201,202,203}};
        int [][] flats;
        flats = new int[2][3];
 
