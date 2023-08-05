@@ -11,6 +11,7 @@ public class Main {
         System.out.println("Total array: " + number);
         System.out.println("Size of Array = " + number.size());
         System.out.println("Array index number 3 is: " + number.get(3));
+        System.out.println("Element index from 0 to before index 3 is : "+  number.subList(0,3));
         number.set(2,49);//for replacing a number in a specic index number. (index number, new number for replacing);
         System.out.println("By Replacing 49 to index number 2 we get = " + number);
         number.remove(3);
@@ -24,9 +25,15 @@ public class Main {
         System.out.println("49 in the array: "+ checkNumber);
         checkNumber = number.contains(69);
         System.out.println("69 is in the array: " + checkNumber);
-//        number.removeAll(number); //to remove all number in an array.
-        number.clear();// to clear all numbers in an array.
+        System.out.println("Checking created new array: "+  number);
+        boolean checkIfEmpty = number.isEmpty();
+        System.out.println("The array is empty: " + checkIfEmpty);
+
+        number.removeAll(number); //to remove all number in an array.
+//        number.clear();// to clear all numbers in an array.
         System.out.println("After removing all elements in an arrray we get = " + number);
+        boolean checkingEmptyagain = number.isEmpty();
+        System.out.println("The array is empty: " + checkingEmptyagain);
 
 
     }
