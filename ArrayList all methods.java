@@ -8,7 +8,7 @@ public class Main {
         number.add(30);
         number.add(40);
 
-        System.out.println("Total array: " + number);
+        System.out.println("Total elements in the array: " + number);
         System.out.println("Size of Array = " + number.size());
         System.out.println("Array index number 3 is: " + number.get(3));
         System.out.println("Element index from 0 to before index 3 is : "+  number.subList(0,3));
