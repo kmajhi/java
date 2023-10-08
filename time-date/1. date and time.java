@@ -9,5 +9,6 @@ public class Main {
 
         String formattedDateTime = currentDateTime.format(formatter);
         System.out.println("Current Date and Time: " + formattedDateTime);
+        //Good things take time
     }
 }
