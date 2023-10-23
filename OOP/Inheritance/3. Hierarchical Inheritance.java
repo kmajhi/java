@@ -1,3 +1,5 @@
+//two or more classes inherits a single class
+
 class Animal{  
 void eat(){
   System.out.println("eating...");
