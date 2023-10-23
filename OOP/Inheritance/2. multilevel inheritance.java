@@ -1,3 +1,5 @@
+//a chain of inheritance where a subclass inherits from another subclass, creating a hierarchy of classes
+
 class Animal{  
 void eat(){
   System.out.println("eating...");
