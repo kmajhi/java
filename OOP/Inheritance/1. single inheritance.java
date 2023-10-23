@@ -1,3 +1,5 @@
+//a class inheriting from only one superclass
+
 class Animal{  
   void eat(){
   System.out.println("eating...");
