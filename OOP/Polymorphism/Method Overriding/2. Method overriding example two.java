@@ -26,8 +26,8 @@ public class LoginApp {
         dutchBanglaBank dbbl = new dutchBanglaBank();
 
         System.out.println("Bank of interest = "+b.bankInterest());
-        System.out.println("Bank of interest = "+ub.bankInterest());
-        System.out.println("Bank of interest = "+sb.bankInterest());
-        System.out.println("Bank of interest = "+dbbl.bankInterest());
+        System.out.println("Uttara Bank Rate of interest = "+ub.bankInterest());
+        System.out.println("Sonali Bank Rate of interest = "+sb.bankInterest());
+        System.out.println("Dutch Bangla Bank Rate of interest = "+dbbl.bankInterest());
     }
 }
