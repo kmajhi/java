@@ -1,34 +1,33 @@
 class Bank{
-    int getRateOfInterest(){
+    int bankInterest(){
         return 0;
     }
-}
-class SBI extends Bank{
-    int getRateOfInterest(){
-        return 8;
-    }
-}
-
-class ICICI extends Bank{
-    int getRateOfInterest(){
+} class uttaraBank extends Bank{
+    @Override
+    int bankInterest() {
         return 7;
     }
-}
-
-class AXIS extends Bank{
-    int getRateOfInterest(){
+} class sonaliBank extends Bank{
+    @Override
+    int bankInterest() {
+        return 8;
+    }
+} class dutchBanglaBank extends Bank{
+    @Override
+    int bankInterest() {
         return 9;
     }
 }
+public class LoginApp {
+    public static void main(String[] args) {
+        Bank b = new Bank();
+        uttaraBank ub = new uttaraBank();
+        sonaliBank sb = new sonaliBank();
+        dutchBanglaBank dbbl = new dutchBanglaBank();
 
-class LoginApp{
-    public static void main(String args[]){
-        SBI s=new SBI();
-        ICICI i=new ICICI();
-        AXIS a=new AXIS();
-
-        System.out.println("SBI Rate of Interest: "+s.getRateOfInterest());
-        System.out.println("ICICI Rate of Interest: "+i.getRateOfInterest());
-        System.out.println("AXIS Rate of Interest: "+a.getRateOfInterest());
+        System.out.println("Bank of interest = "+b.bankInterest());
+        System.out.println("Bank of interest = "+ub.bankInterest());
+        System.out.println("Bank of interest = "+sb.bankInterest());
+        System.out.println("Bank of interest = "+dbbl.bankInterest());
     }
-}  
+}
