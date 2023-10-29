@@ -2,7 +2,7 @@
 	<header class="entry-header">
 		<h1 class="entry-title">জাভা পলিমরফিজম ( Java Polymorphism&nbsp;)</h1>
 		<div class="entry-meta">
-			<span class="posted-on">Posted on <a href="www.github.com/kmajhi/java" rel="bookmark"><time class="entry-date published" datetime="2023-29-15T20:48:44+06:00">October 29, 2023</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://www.github.com/kmajhi">Sujon Mahamud</a></span></span>		</div><!-- .entry-meta -->
+			<!-- .entry-meta -->
 	</header>
 
 	
@@ -514,8 +514,9 @@ class BabyDog1 extends Dog {
 <p>Since, BabyDog is not overriding the eat() method, so eat() method of Dog class is invoked.</p>
 
 <h5 class="h5">If you have any questions or suggestions feel free to contact me through email. 
-  Thank you! 
-  <code>-- Sujon Mahamud</code></h3>
+  Thank you! </h5>
+  <code><span class="posted-on">Posted on <a href="https://github.com/kmajhi/java/tree/main/OOP/Polymorphism" rel="bookmark"><time class="entry-date published" datetime="2023-29-15T20:48:44+06:00">October 29, 2023</time></a></span><span class="byline"> by <span class="author vcard"><a class="url fn n" href="https://www.github.com/kmajhi](https://github.com/kmajhi/java/tree/main/OOP/Polymorphism">MD. Sujon Mahamud</a></span></span>
+</div></code>
 
 			
 	
