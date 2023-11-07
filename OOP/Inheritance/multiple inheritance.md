@@ -1,4 +1,4 @@
-In Java, it's not possible for a class to directly extend multiple classes (example with `class C extends A, B`). Java does not support multiple inheritance for classes. However, a class can implement multiple interfaces to achieve a form of multiple inheritance, but extending multiple classes directly is not allowed.
+In Java, it's not possible for a class to directly extend multiple classes (example with `class C extends A, B`). Java does not support <code>multiple inheritance</code> for classes. However, a class can implement multiple interfaces to achieve a form of multiple inheritance, but extending multiple classes directly is not allowed.
 
 To simulate multiple inheritance for methods, you could use interfaces and implement those methods in the derived class. Here's an adjusted example:
 
