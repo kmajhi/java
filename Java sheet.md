@@ -12,4 +12,29 @@ class ClassName {
 }
 </pre>
 
+<h2>object of class</h2>
+An object is an instance of a Class.
+
+<pre>className object = new className();</pre>
+
+<h2>Encapsulation</h2>
+Encapsulation is a mechanism of wrapping the data and code acting on the data together as a single unit. In encapsulation, the variables of a class will be hidden from other classes and can be accessed only through the methods of their current class.
+
+
+<pre>
+  public class Person{ 
+   private String name; // using private access modifier 
+
+   // Getter 
+   public String getName(){ 
+    return name; 
+   } 
+
+   // Setter  
+   public void setName(String newName){ 
+     this.name = newName; 
+   } 
+}
+</pre>
+
 
