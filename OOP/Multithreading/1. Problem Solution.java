@@ -9,3 +9,9 @@ class myClass extends Thread{
     }
   }
 }
+public class Solution{
+  public static void main(){
+    myClass obj = new myClass();
+    obj.start();
+  }
+}
